@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/reviewbg"
+    android:layout_marginBottom="450dp">
+    <!-- User Profile Image -->
+
+    <TextView
+        android:id="@+id/aboveSearchText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="36dp"
+        android:text="Your opinion have power"
+        android:textColor="@color/blue"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/aboveSearchTex"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="87dp"
+        android:text="Our Travellers' Choice Best of the Best winners are chosen based on your reviews and ratings - so write a review today to help decide next year's winners."
+        android:textAlignment="center"
+        android:textColor="@color/blue"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+    <androidx.appcompat.widget.SearchView
+        android:id="@+id/searchView"
+        android:layout_width="333dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+
+        android:layout_marginTop="150dp"
+
+        android:background="@drawable/searchview_bg"
+        android:iconifiedByDefault="false"
+        android:queryHint="Search..." />
+
+    <!--        android:src="@drawable/user_profile_placeholder" -->
+
+
+    <!-- SearchView -->
+
+    <!-- RecyclerView for displaying places -->
+
+</RelativeLayout>
